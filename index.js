@@ -18,6 +18,8 @@ fetch(pokemonUrl)
 
 function renderPokemonInList(pokemon) {
     const newLi = document.createElement('li')
-    const newSpan = document.createElement('span')
-    
+    // newLi.className = ""
+
+    const newDiv = document.createElement('div')
+    // newDiv.className = ""
 }
