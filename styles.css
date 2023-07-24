@@ -1,0 +1,30 @@
+.list-pokemon {
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  overflow: auto
+}
+
+.list-image {
+  width: 10%;
+  float: left;
+  padding: 10px
+}
+
+
+
+.list-info {
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background-color: #c98179;
+  width: 80%;
+  height: 10%;
+  float: left
+}
+
+ul {
+    overflow-y: scroll
+}
