@@ -20,7 +20,6 @@ fetch(pokemonUrl)
 
 
 function renderPokemonInList(pokemon) {
-    console.log(pokemon.name.english)
     const newLi = document.createElement('li')
     newLi.className = "list-pokemon"
     pokemonList.append(newLi)
@@ -33,16 +32,22 @@ function renderPokemonInList(pokemon) {
 
     const detailDiv = document.createElement("div")
     detailDiv.className = 'list-info'
+    detailDiv.style["background-color"] = colorLiByStatus(pokemon["caught-status"])
     newLi.append(detailDiv)
 
-    const pokemonNameHeader = document.createElement("h5")
+    const nameDiv = document.createElement("div")
+    const pokemonNameHeader = document.createElement("h3")
+    pokemonNameHeader.style.float = "left"
     pokemonNameHeader.textContent = pokemon.name.english
-    detailDiv.append(pokemonNameHeader)
+    nameDiv.append(pokemonNameHeader)
+    detailDiv.append(nameDiv)
 
+    const statusDiv = document.createElement("div")
     const pokemonStatus = document.createElement('p')
     pokemonStatus.textContent = pokemon["caught-status"]
-    console.log(pokemonStatus)
-    detailDiv.append(pokemonStatus.textContent)
+    statusDiv.className = 'list-status'
+    statusDiv.append(pokemonStatus)
+    detailDiv.append(statusDiv)
 
     
 
@@ -52,10 +57,23 @@ function renderPokemonInList(pokemon) {
 }
 
 
+
+
+
 //HELPER FUNCTIONS
 
 function formatImageSrc(id) {
     id = id.toString()
     while (id.length <3) {id = `0${id}`}
     return `./images/${id}.png`
+}
+
+function colorLiByStatus(status) {
+    if (status === "Uncaught") {
+        return "#c98179"
+    } else if (status === "In Pokedex") {
+        return "#78f871"
+    } else if (status === "In Livedex") {
+        return "#4f5fba"
+    }
 }
