@@ -42,7 +42,13 @@ const renderFeaturePokemon = pokemon => {
     type.textContent = `Type: ${pokemon.type}`
     type.id = 'type'
     pokemonFeatured.appendChild(type)
+
     // Insert caught status
+    let caught = document.createElement('h3')
+    caught.textContent = `Caught Status: ${pokemon['caught-status']}`
+    caught.id = 'caught-status'
+    pokemonFeatured.appendChild(caught)
+    
     // Insert Notes
 
 
