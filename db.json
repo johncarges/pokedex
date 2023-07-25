@@ -20,7 +20,7 @@
         "Sp. Defense": 65,
         "Speed": 45
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 2,
@@ -42,7 +42,7 @@
         "Sp. Defense": 80,
         "Speed": 60
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 3,
@@ -64,7 +64,7 @@
         "Sp. Defense": 100,
         "Speed": 80
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 4,
@@ -85,7 +85,7 @@
         "Sp. Defense": 50,
         "Speed": 65
       },
-      "caught-status": "uncaught"
+      "caught-status": "In Pokedex"
     },
     {
       "id": 5,
@@ -106,7 +106,7 @@
         "Sp. Defense": 65,
         "Speed": 80
       },
-      "caught-status": "uncaught"
+      "caught-status": "In Livedex"
     },
     {
       "id": 6,
@@ -128,7 +128,7 @@
         "Sp. Defense": 85,
         "Speed": 100
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 7,
@@ -149,7 +149,7 @@
         "Sp. Defense": 64,
         "Speed": 43
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 8,
@@ -170,7 +170,7 @@
         "Sp. Defense": 80,
         "Speed": 58
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 9,
@@ -191,7 +191,7 @@
         "Sp. Defense": 105,
         "Speed": 78
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 10,
@@ -212,7 +212,7 @@
         "Sp. Defense": 20,
         "Speed": 45
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 11,
@@ -233,7 +233,7 @@
         "Sp. Defense": 25,
         "Speed": 30
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 12,
@@ -255,7 +255,7 @@
         "Sp. Defense": 80,
         "Speed": 70
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 13,
@@ -277,7 +277,7 @@
         "Sp. Defense": 20,
         "Speed": 50
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 14,
@@ -299,7 +299,7 @@
         "Sp. Defense": 25,
         "Speed": 35
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 15,
@@ -321,7 +321,7 @@
         "Sp. Defense": 80,
         "Speed": 75
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 16,
@@ -343,7 +343,7 @@
         "Sp. Defense": 35,
         "Speed": 56
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 17,
@@ -365,7 +365,7 @@
         "Sp. Defense": 50,
         "Speed": 71
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 18,
@@ -387,7 +387,7 @@
         "Sp. Defense": 70,
         "Speed": 101
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 19,
@@ -408,7 +408,7 @@
         "Sp. Defense": 35,
         "Speed": 72
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 20,
@@ -429,7 +429,7 @@
         "Sp. Defense": 70,
         "Speed": 97
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 21,
@@ -451,7 +451,7 @@
         "Sp. Defense": 31,
         "Speed": 70
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 22,
@@ -473,7 +473,7 @@
         "Sp. Defense": 61,
         "Speed": 100
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 23,
@@ -494,7 +494,7 @@
         "Sp. Defense": 54,
         "Speed": 55
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 24,
@@ -515,7 +515,7 @@
         "Sp. Defense": 79,
         "Speed": 80
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 25,
@@ -536,7 +536,7 @@
         "Sp. Defense": 50,
         "Speed": 90
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 26,
@@ -557,7 +557,7 @@
         "Sp. Defense": 80,
         "Speed": 110
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 27,
@@ -578,7 +578,7 @@
         "Sp. Defense": 30,
         "Speed": 40
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 28,
@@ -599,7 +599,7 @@
         "Sp. Defense": 55,
         "Speed": 65
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 29,
@@ -620,7 +620,7 @@
         "Sp. Defense": 40,
         "Speed": 41
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 30,
@@ -641,7 +641,7 @@
         "Sp. Defense": 55,
         "Speed": 56
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 31,
@@ -663,7 +663,7 @@
         "Sp. Defense": 85,
         "Speed": 76
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 32,
@@ -684,7 +684,7 @@
         "Sp. Defense": 40,
         "Speed": 50
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 33,
@@ -705,7 +705,7 @@
         "Sp. Defense": 55,
         "Speed": 65
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 34,
@@ -727,7 +727,7 @@
         "Sp. Defense": 75,
         "Speed": 85
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 35,
@@ -748,7 +748,7 @@
         "Sp. Defense": 65,
         "Speed": 35
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 36,
@@ -769,7 +769,7 @@
         "Sp. Defense": 90,
         "Speed": 60
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 37,
@@ -790,7 +790,7 @@
         "Sp. Defense": 65,
         "Speed": 65
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 38,
@@ -811,7 +811,7 @@
         "Sp. Defense": 100,
         "Speed": 100
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 39,
@@ -833,7 +833,7 @@
         "Sp. Defense": 25,
         "Speed": 20
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 40,
@@ -855,7 +855,7 @@
         "Sp. Defense": 50,
         "Speed": 45
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 41,
@@ -877,7 +877,7 @@
         "Sp. Defense": 40,
         "Speed": 55
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 42,
@@ -899,7 +899,7 @@
         "Sp. Defense": 75,
         "Speed": 90
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 43,
@@ -921,7 +921,7 @@
         "Sp. Defense": 65,
         "Speed": 30
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 44,
@@ -943,7 +943,7 @@
         "Sp. Defense": 75,
         "Speed": 40
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 45,
@@ -965,7 +965,7 @@
         "Sp. Defense": 90,
         "Speed": 50
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 46,
@@ -987,7 +987,7 @@
         "Sp. Defense": 55,
         "Speed": 25
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 47,
@@ -1009,7 +1009,7 @@
         "Sp. Defense": 80,
         "Speed": 30
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 48,
@@ -1031,7 +1031,7 @@
         "Sp. Defense": 55,
         "Speed": 45
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 49,
@@ -1053,7 +1053,7 @@
         "Sp. Defense": 75,
         "Speed": 90
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 50,
@@ -1074,7 +1074,7 @@
         "Sp. Defense": 45,
         "Speed": 95
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 51,
@@ -1095,7 +1095,7 @@
         "Sp. Defense": 70,
         "Speed": 120
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 52,
@@ -1116,7 +1116,7 @@
         "Sp. Defense": 40,
         "Speed": 90
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 53,
@@ -1137,7 +1137,7 @@
         "Sp. Defense": 65,
         "Speed": 115
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 54,
@@ -1158,7 +1158,7 @@
         "Sp. Defense": 50,
         "Speed": 55
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 55,
@@ -1179,7 +1179,7 @@
         "Sp. Defense": 80,
         "Speed": 85
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 56,
@@ -1200,7 +1200,7 @@
         "Sp. Defense": 45,
         "Speed": 70
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 57,
@@ -1221,7 +1221,7 @@
         "Sp. Defense": 70,
         "Speed": 95
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 58,
@@ -1242,7 +1242,7 @@
         "Sp. Defense": 50,
         "Speed": 60
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 59,
@@ -1263,7 +1263,7 @@
         "Sp. Defense": 80,
         "Speed": 95
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 60,
@@ -1284,7 +1284,7 @@
         "Sp. Defense": 40,
         "Speed": 90
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 61,
@@ -1305,7 +1305,7 @@
         "Sp. Defense": 50,
         "Speed": 90
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 62,
@@ -1327,7 +1327,7 @@
         "Sp. Defense": 90,
         "Speed": 70
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 63,
@@ -1348,7 +1348,7 @@
         "Sp. Defense": 55,
         "Speed": 90
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 64,
@@ -1369,7 +1369,7 @@
         "Sp. Defense": 70,
         "Speed": 105
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 65,
@@ -1390,7 +1390,7 @@
         "Sp. Defense": 95,
         "Speed": 120
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 66,
@@ -1411,7 +1411,7 @@
         "Sp. Defense": 35,
         "Speed": 35
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 67,
@@ -1432,7 +1432,7 @@
         "Sp. Defense": 60,
         "Speed": 45
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 68,
@@ -1453,7 +1453,7 @@
         "Sp. Defense": 85,
         "Speed": 55
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 69,
@@ -1475,7 +1475,7 @@
         "Sp. Defense": 30,
         "Speed": 40
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 70,
@@ -1497,7 +1497,7 @@
         "Sp. Defense": 45,
         "Speed": 55
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 71,
@@ -1519,7 +1519,7 @@
         "Sp. Defense": 70,
         "Speed": 70
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 72,
@@ -1541,7 +1541,7 @@
         "Sp. Defense": 100,
         "Speed": 70
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 73,
@@ -1563,7 +1563,7 @@
         "Sp. Defense": 120,
         "Speed": 100
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 74,
@@ -1585,7 +1585,7 @@
         "Sp. Defense": 30,
         "Speed": 20
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 75,
@@ -1607,7 +1607,7 @@
         "Sp. Defense": 45,
         "Speed": 35
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 76,
@@ -1629,7 +1629,7 @@
         "Sp. Defense": 65,
         "Speed": 45
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 77,
@@ -1650,7 +1650,7 @@
         "Sp. Defense": 65,
         "Speed": 90
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 78,
@@ -1671,7 +1671,7 @@
         "Sp. Defense": 80,
         "Speed": 105
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 79,
@@ -1693,7 +1693,7 @@
         "Sp. Defense": 40,
         "Speed": 15
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 80,
@@ -1715,7 +1715,7 @@
         "Sp. Defense": 80,
         "Speed": 30
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 81,
@@ -1737,7 +1737,7 @@
         "Sp. Defense": 55,
         "Speed": 45
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 82,
@@ -1759,7 +1759,7 @@
         "Sp. Defense": 70,
         "Speed": 70
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 83,
@@ -1781,7 +1781,7 @@
         "Sp. Defense": 62,
         "Speed": 60
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 84,
@@ -1803,7 +1803,7 @@
         "Sp. Defense": 35,
         "Speed": 75
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 85,
@@ -1825,7 +1825,7 @@
         "Sp. Defense": 60,
         "Speed": 110
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 86,
@@ -1846,7 +1846,7 @@
         "Sp. Defense": 70,
         "Speed": 45
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 87,
@@ -1868,7 +1868,7 @@
         "Sp. Defense": 95,
         "Speed": 70
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 88,
@@ -1889,7 +1889,7 @@
         "Sp. Defense": 50,
         "Speed": 25
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 89,
@@ -1910,7 +1910,7 @@
         "Sp. Defense": 100,
         "Speed": 50
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 90,
@@ -1931,7 +1931,7 @@
         "Sp. Defense": 25,
         "Speed": 40
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 91,
@@ -1953,7 +1953,7 @@
         "Sp. Defense": 45,
         "Speed": 70
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 92,
@@ -1975,7 +1975,7 @@
         "Sp. Defense": 35,
         "Speed": 80
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 93,
@@ -1997,7 +1997,7 @@
         "Sp. Defense": 55,
         "Speed": 95
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 94,
@@ -2019,7 +2019,7 @@
         "Sp. Defense": 75,
         "Speed": 110
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 95,
@@ -2041,7 +2041,7 @@
         "Sp. Defense": 45,
         "Speed": 70
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 96,
@@ -2062,7 +2062,7 @@
         "Sp. Defense": 90,
         "Speed": 42
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 97,
@@ -2083,7 +2083,7 @@
         "Sp. Defense": 115,
         "Speed": 67
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 98,
@@ -2104,7 +2104,7 @@
         "Sp. Defense": 25,
         "Speed": 50
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 99,
@@ -2125,7 +2125,7 @@
         "Sp. Defense": 50,
         "Speed": 75
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 100,
@@ -2146,7 +2146,7 @@
         "Sp. Defense": 55,
         "Speed": 100
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 101,
@@ -2167,7 +2167,7 @@
         "Sp. Defense": 80,
         "Speed": 150
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 102,
@@ -2189,7 +2189,7 @@
         "Sp. Defense": 45,
         "Speed": 40
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 103,
@@ -2211,7 +2211,7 @@
         "Sp. Defense": 75,
         "Speed": 55
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 104,
@@ -2232,7 +2232,7 @@
         "Sp. Defense": 50,
         "Speed": 35
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 105,
@@ -2253,7 +2253,7 @@
         "Sp. Defense": 80,
         "Speed": 45
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 106,
@@ -2274,7 +2274,7 @@
         "Sp. Defense": 110,
         "Speed": 87
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 107,
@@ -2295,7 +2295,7 @@
         "Sp. Defense": 110,
         "Speed": 76
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 108,
@@ -2316,7 +2316,7 @@
         "Sp. Defense": 75,
         "Speed": 30
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 109,
@@ -2337,7 +2337,7 @@
         "Sp. Defense": 45,
         "Speed": 35
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 110,
@@ -2358,7 +2358,7 @@
         "Sp. Defense": 70,
         "Speed": 60
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 111,
@@ -2380,7 +2380,7 @@
         "Sp. Defense": 30,
         "Speed": 25
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 112,
@@ -2402,7 +2402,7 @@
         "Sp. Defense": 45,
         "Speed": 40
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 113,
@@ -2423,7 +2423,7 @@
         "Sp. Defense": 105,
         "Speed": 50
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 114,
@@ -2444,7 +2444,7 @@
         "Sp. Defense": 40,
         "Speed": 60
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 115,
@@ -2465,7 +2465,7 @@
         "Sp. Defense": 80,
         "Speed": 90
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 116,
@@ -2486,7 +2486,7 @@
         "Sp. Defense": 25,
         "Speed": 60
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 117,
@@ -2507,7 +2507,7 @@
         "Sp. Defense": 45,
         "Speed": 85
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 118,
@@ -2528,7 +2528,7 @@
         "Sp. Defense": 50,
         "Speed": 63
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 119,
@@ -2549,7 +2549,7 @@
         "Sp. Defense": 80,
         "Speed": 68
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 120,
@@ -2570,7 +2570,7 @@
         "Sp. Defense": 55,
         "Speed": 85
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 121,
@@ -2592,7 +2592,7 @@
         "Sp. Defense": 85,
         "Speed": 115
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 122,
@@ -2614,7 +2614,7 @@
         "Sp. Defense": 120,
         "Speed": 90
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 123,
@@ -2636,7 +2636,7 @@
         "Sp. Defense": 80,
         "Speed": 105
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 124,
@@ -2658,7 +2658,7 @@
         "Sp. Defense": 95,
         "Speed": 95
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 125,
@@ -2679,7 +2679,7 @@
         "Sp. Defense": 85,
         "Speed": 105
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 126,
@@ -2700,7 +2700,7 @@
         "Sp. Defense": 85,
         "Speed": 93
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 127,
@@ -2721,7 +2721,7 @@
         "Sp. Defense": 70,
         "Speed": 85
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 128,
@@ -2742,7 +2742,7 @@
         "Sp. Defense": 70,
         "Speed": 110
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 129,
@@ -2763,7 +2763,7 @@
         "Sp. Defense": 20,
         "Speed": 80
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 130,
@@ -2785,7 +2785,7 @@
         "Sp. Defense": 100,
         "Speed": 81
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 131,
@@ -2807,7 +2807,7 @@
         "Sp. Defense": 95,
         "Speed": 60
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 132,
@@ -2828,7 +2828,7 @@
         "Sp. Defense": 48,
         "Speed": 48
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 133,
@@ -2849,7 +2849,7 @@
         "Sp. Defense": 65,
         "Speed": 55
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 134,
@@ -2870,7 +2870,7 @@
         "Sp. Defense": 95,
         "Speed": 65
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 135,
@@ -2891,7 +2891,7 @@
         "Sp. Defense": 95,
         "Speed": 130
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 136,
@@ -2912,7 +2912,7 @@
         "Sp. Defense": 110,
         "Speed": 65
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 137,
@@ -2933,7 +2933,7 @@
         "Sp. Defense": 75,
         "Speed": 40
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 138,
@@ -2955,7 +2955,7 @@
         "Sp. Defense": 55,
         "Speed": 35
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 139,
@@ -2977,7 +2977,7 @@
         "Sp. Defense": 70,
         "Speed": 55
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 140,
@@ -2999,7 +2999,7 @@
         "Sp. Defense": 45,
         "Speed": 55
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 141,
@@ -3021,7 +3021,7 @@
         "Sp. Defense": 70,
         "Speed": 80
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 142,
@@ -3043,7 +3043,7 @@
         "Sp. Defense": 75,
         "Speed": 130
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 143,
@@ -3064,7 +3064,7 @@
         "Sp. Defense": 110,
         "Speed": 30
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 144,
@@ -3086,7 +3086,7 @@
         "Sp. Defense": 125,
         "Speed": 85
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 145,
@@ -3108,7 +3108,7 @@
         "Sp. Defense": 90,
         "Speed": 100
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 146,
@@ -3130,7 +3130,7 @@
         "Sp. Defense": 85,
         "Speed": 90
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 147,
@@ -3151,7 +3151,7 @@
         "Sp. Defense": 50,
         "Speed": 50
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 148,
@@ -3172,7 +3172,7 @@
         "Sp. Defense": 70,
         "Speed": 70
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 149,
@@ -3194,7 +3194,7 @@
         "Sp. Defense": 100,
         "Speed": 80
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 150,
@@ -3215,7 +3215,7 @@
         "Sp. Defense": 90,
         "Speed": 130
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     },
     {
       "id": 151,
@@ -3236,7 +3236,7 @@
         "Sp. Defense": 100,
         "Speed": 100
       },
-      "caught-status": "uncaught"
+      "caught-status": "Uncaught"
     }
   ]
 }

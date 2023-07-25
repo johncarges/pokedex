@@ -6,10 +6,54 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
+
+    
+    
+    <!-- featured pokemon containter--> 
+     <div id="feautured-container">
+      <img id="pokemon-image" src="">
+      <div id="pokemon-name">Name</div>
+      <div id="pokemon-types">
+      <span class="type-tag">Pokemon Type</span>
+      </div>
+      <div id="Pokemon-description">Description of pokemon and what they are known for</div>
+      <h3>Your Pokemon!</h3>
+    </div>
+
+    <!-- Search container -->
+    <div class ="search-container">
+      <input type = "text" id="search-input" placeholder="pokemon">
+      <button class="search-button">Search</button>
+    </div>
+
+    <!-- search filter container-->
+    <div class="filter-container"?>
+       <label for ="filter-type">filter by type:</label>
+       <select class="filter-select" id="filter type">
+        <option value="">All</option>
+        <option value="Caught">Caught</option>
+        <option value="uncaught">Uncaught</option>
+        <option value="Type">Type</option>
+       </select>
+       <button class="filter-button">Apply Filter</button>
+    </div>
+
+    <!--Status contatiner-->
+    <div id="status-container" class="status-container">
+    <div id="status-container"class = "status-label">Status:</div>
+    <div id= "status-tag status-caught"class=" status-tag status-caught">Caught</div>
+    <div id="status-tag status-uncaught" class="status tag status-uncaught">uncaught</div>
+     </div>
+
+     <!--PokeDex list-->
+
     <h1>Pokedex!</h1>
     <div id="featured-pokemon"></div>
     <div id="pokemon-list-container" class="scroll">
         <ul id="pokemon-list"></ul>
+    </div>
+   
+
     </div>
 
     <script defer type="text/javascript" src="index.js"></script>
