@@ -6,13 +6,16 @@ const pokemonUrl = baseUrl + "/pokemon"
 const featuredPokemonWindow = document.getElementById("featured-pokemon")
 const pokemonList = document.getElementById('pokemon-list')
 
+// Page Number
+let pageNumber = 1
 
 
 // INITIAL FETCH
 fetch(pokemonUrl)
 .then(r=>r.json())
 .then((data) => {
-    data.slice(0,10).forEach(renderPokemonInList)
+    data.slice(20*(pageNumber-1),20*pageNumber).forEach(renderPokemonInList)
+    // Show 20 pokemon at a time - can increase once we add buttons
 })
 
 
@@ -32,7 +35,7 @@ function renderPokemonInList(pokemon) {
     detailDiv.className = 'list-info'
     newLi.append(detailDiv)
 
-    const pokemonNameHeader = document.createElement("h3")
+    const pokemonNameHeader = document.createElement("h5")
     pokemonNameHeader.textContent = pokemon.name.english
     detailDiv.append(pokemonNameHeader)
 
