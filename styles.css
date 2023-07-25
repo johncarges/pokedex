@@ -7,7 +7,7 @@
 }
 
 .list-image {
-  width: 10%;
+  width: 5%;
   float: left;
   padding: 10px
 }
@@ -15,17 +15,26 @@
 
 
 .list-info {
-  padding: 10px;
+  padding: 5px;
   border-style: solid;
   border-width: 2px;
   border-color: black;
   background-color: #c98179;
   width: 80%;
-  height: 10%;
-  float: left
+  
+  float: left;
+  overflow: auto
 }
 
+.list-status {
+    float: right
+}
+
+
 ul {
+    height: 50%;
+    overflow-x: hidden;
+    overflow-y: scroll;
     overflow-y: scroll
 }
 
@@ -208,4 +217,5 @@ h1 {
 
 ::-webkit-scrollbar-track {
   background-color: #f1f1f1;
+
 }

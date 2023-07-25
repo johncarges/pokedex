@@ -5,14 +5,20 @@ const pokemonUrl = baseUrl + "/pokemon"
 
 const featuredPokemonWindow = document.getElementById("featured-pokemon")
 const pokemonList = document.getElementById('pokemon-list')
+
+// Page Number
+let pageNumber = 1
+
 const pokemonFeatured = document.getElementById('featured-pokemon')
+
 
 
 // INITIAL FETCH
 fetch(pokemonUrl)
 .then(r=>r.json())
 .then((data) => {
-    data.slice(0,10).forEach(renderPokemonInList)
+    data.slice(20*(pageNumber-1),20*pageNumber).forEach(renderPokemonInList)
+    // Show 20 pokemon at a time - can increase once we add buttons
 })
 
 // Function to render feature Pokemon at top of page
@@ -38,7 +44,17 @@ const renderFeaturePokemon = pokemon => {
     pokemonFeatured.appendChild(h3)
 
     // Insert Type info
+    let type = document.createElement('h3')
+    type.textContent = `Type: ${pokemon.type}`
+    type.id = 'type'
+    pokemonFeatured.appendChild(type)
+
     // Insert caught status
+    let caught = document.createElement('h3')
+    caught.textContent = `Caught Status: ${pokemon['caught-status']}`
+    caught.id = 'caught-status'
+    pokemonFeatured.appendChild(caught)
+    
     // Insert Notes
 
 
@@ -46,7 +62,6 @@ const renderFeaturePokemon = pokemon => {
 
 
 function renderPokemonInList(pokemon) {
-    console.log(pokemon.name.english)
     const newLi = document.createElement('li')
     newLi.className = "list-pokemon"
     pokemonList.append(newLi)
@@ -59,16 +74,22 @@ function renderPokemonInList(pokemon) {
 
     const detailDiv = document.createElement("div")
     detailDiv.className = 'list-info'
+    detailDiv.style["background-color"] = colorLiByStatus(pokemon["caught-status"])
     newLi.append(detailDiv)
 
+    const nameDiv = document.createElement("div")
     const pokemonNameHeader = document.createElement("h3")
+    pokemonNameHeader.style.float = "left"
     pokemonNameHeader.textContent = pokemon.name.english
-    detailDiv.append(pokemonNameHeader)
+    nameDiv.append(pokemonNameHeader)
+    detailDiv.append(nameDiv)
 
+    const statusDiv = document.createElement("div")
     const pokemonStatus = document.createElement('p')
     pokemonStatus.textContent = pokemon["caught-status"]
-    console.log(pokemonStatus)
-    detailDiv.append(pokemonStatus.textContent)
+    statusDiv.className = 'list-status'
+    statusDiv.append(pokemonStatus)
+    detailDiv.append(statusDiv)
 
     
 
@@ -78,10 +99,23 @@ function renderPokemonInList(pokemon) {
 }
 
 
+
+
+
 //HELPER FUNCTIONS
 
 function formatImageSrc(id) {
     id = id.toString()
     while (id.length <3) {id = `0${id}`}
     return `./images/${id}.png`
+}
+
+function colorLiByStatus(status) {
+    if (status === "Uncaught") {
+        return "#c98179"
+    } else if (status === "In Pokedex") {
+        return "#78f871"
+    } else if (status === "In Livedex") {
+        return "#4f5fba"
+    }
 }
