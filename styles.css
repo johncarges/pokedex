@@ -108,7 +108,7 @@ h1 {
   margin-bottom: 10px;
 }
 
-.type-tag {
+#type-tag {
   display: inline-block;
   padding: 5px 10px;
   background-color: #007BFF;
@@ -246,5 +246,5 @@ h1 {
 
 ::-webkit-scrollbar-track {
   background-color: #f1f1f1;
-
 }
+
