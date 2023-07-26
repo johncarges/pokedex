@@ -5,6 +5,7 @@ const pokemonUrl = baseUrl + "/pokemon"
 
 const featuredPokemonWindow = document.getElementById("featured-pokemon")
 const pokemonList = document.getElementById('pokemon-list')
+const rndInt = Math.floor(Math.random() * 150)
 
 // Page Number
 let pageNumber = 1
@@ -18,45 +19,39 @@ fetch(pokemonUrl)
 .then(r=>r.json())
 .then((data) => {
     data.slice(20*(pageNumber-1),20*pageNumber).forEach(renderPokemonInList)
+    renderFeaturePokemon(data[rndInt])
     // Show 20 pokemon at a time - can increase once we add buttons
 })
 
 // Function to render feature Pokemon at top of page
 
 const renderFeaturePokemon = pokemon => {
-    // Insert image based on API
-    // let image = document.createElement('img')
-    // image.src = pokemon.image
-    // image.alt = pokemon.name
-    // image.className = "pokemon-image"
-    // pokemonFeatured.appendChild(image)
+    
+    //Insert Pokemon image
+    let image = document.getElementById('pokemon-image')
+    image.src = formatImageSrc(pokemon.id)
+    image.alt = pokemon.name
 
     // Insert Pokemon name
-    let h2 = document.createElement('h2')
-    h2.textContent = pokemon.name.english
-    h2.id = 'feature-name'
-    pokemonFeatured.appendChild(h2)
+    let name = document.getElementById('pokemon-name')
+    name.textContent = pokemon.name.english
 
     // Insert Pokedex number
     let h3 = document.createElement('h3')
     h3.textContent = `Pokedex Number: ${pokemon.id}`
     h3.id = 'pokedex-num'
-    pokemonFeatured.appendChild(h3)
 
     // Insert Type info
     let type = document.createElement('h3')
     type.textContent = `Type: ${pokemon.type}`
     type.id = 'type'
-    pokemonFeatured.appendChild(type)
 
     // Insert caught status
     let caught = document.createElement('h3')
     caught.textContent = `Caught Status: ${pokemon['caught-status']}`
     caught.id = 'caught-status'
-    pokemonFeatured.appendChild(caught)
     
     // Insert Notes
-
 
 }
 
@@ -91,10 +86,7 @@ function renderPokemonInList(pokemon) {
     statusDiv.append(pokemonStatus)
     detailDiv.append(statusDiv)
 
-    
-
-    
-
+    newLi.onclick = (e) => renderFeaturePokemon(pokemon)  
 
 }
 
