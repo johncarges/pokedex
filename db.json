@@ -42,7 +42,7 @@
         "Sp. Defense": 80,
         "Speed": 60
       },
-      "caught-status": "Uncaught"
+      "caught-status": "In Livedex"
     },
     {
       "id": 3,
@@ -64,7 +64,7 @@
         "Sp. Defense": 100,
         "Speed": 80
       },
-      "caught-status": "Uncaught"
+      "caught-status": "In Livedex"
     },
     {
       "id": 4,
@@ -128,7 +128,7 @@
         "Sp. Defense": 85,
         "Speed": 100
       },
-      "caught-status": "Uncaught"
+      "caught-status": "In Livedex"
     },
     {
       "id": 7,
@@ -149,7 +149,7 @@
         "Sp. Defense": 64,
         "Speed": 43
       },
-      "caught-status": "Uncaught"
+      "caught-status": "In Livedex"
     },
     {
       "id": 8,
@@ -1031,7 +1031,7 @@
         "Sp. Defense": 55,
         "Speed": 45
       },
-      "caught-status": "Uncaught"
+      "caught-status": "In Livedex"
     },
     {
       "id": 49,
@@ -1263,7 +1263,7 @@
         "Sp. Defense": 80,
         "Speed": 95
       },
-      "caught-status": "Uncaught"
+      "caught-status": "In Livedex"
     },
     {
       "id": 60,
@@ -1541,7 +1541,7 @@
         "Sp. Defense": 100,
         "Speed": 70
       },
-      "caught-status": "Uncaught"
+      "caught-status": "In Livedex"
     },
     {
       "id": 73,
@@ -1931,7 +1931,7 @@
         "Sp. Defense": 25,
         "Speed": 40
       },
-      "caught-status": "Uncaught"
+      "caught-status": "In Livedex"
     },
     {
       "id": 91,
@@ -2700,7 +2700,7 @@
         "Sp. Defense": 85,
         "Speed": 93
       },
-      "caught-status": "Uncaught"
+      "caught-status": "In Livedex"
     },
     {
       "id": 127,
@@ -3151,7 +3151,7 @@
         "Sp. Defense": 50,
         "Speed": 50
       },
-      "caught-status": "Uncaught"
+      "caught-status": "In Pokedex"
     },
     {
       "id": 148,

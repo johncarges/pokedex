@@ -6,45 +6,61 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-
     
+    <div>
+    <div id="top-level-div">
+    <!-- featured pokemon container--> 
+        <div id="featured-container">
+            <div id="name-bar">
+                <div id="pokemon-name">Name</div>
+                <div id="pokemon-number">No. 6</div>
+            </div>
+            
+            <div id="image-border">
+                <img id="pokemon-image" src="" alt="image">
+            </div>
+            
+            <div id="pokemon-types">
+            <span id="type-tag">Pokemon Type</span>
+            </div>
+            
+            <form id="toggle-caught-button">
+               <input type="radio" id="uncaught-option" name="pokemon-status" value="Uncaught">
+               <label for="uncaught">Uncaught</label><br>
+               <input type="radio" id="in-livedex-option" name="pokemon-status" value="In Livedex">
+               <label for="in-livedex">In Livedex</label><br>
+               <input type="radio" id="in-pokedex-option" name="pokemon-status" value="In Pokedex">
+               <label for="in-pokedex">In Pokedex</label>
+            </form>
+
+        </div>
+
+        <div id="search-filter-container">
+            <!-- Search container -->
+            <div class ="search-container">
+                <input type = "text" id="search-input" placeholder="pokemon">
+                <button class="search-button">Search</button>
+            </div>
+
+            <!-- search filter container-->
+            <div class="filter-container">
+                <label for ="filter-type">Filter by Status:</label>
+                <select class="filter-select" id="filter type">
+                    <option value="">All</option>
+                    <option value="Caught">Caught</option>
+                    <option value="uncaught">Uncaught</option>
+                </select>
+                <button class="filter-button">Apply Filter</button>
+            </div>
+        </div>
+    </div>
     
-    <!-- featured pokemon containter--> 
-     <div id="feautured-container">
-      <img id="pokemon-image" src="">
-      <div id="pokemon-name">Name</div>
-      <div id="pokemon-types">
-      <span class="type-tag">Pokemon Type</span>
-      <button id="toggle-caught-button">Toggle Caught Status</button>
-      </div>
-      <div id="Pokemon-description">Description of pokemon and what they are known for</div>
-      <h3>Your Pokemon!</h3>
-    </div>
-
-    <!-- Search container -->
-    <div class ="search-container">
-      <input type = "text" id="search-input" placeholder="pokemon">
-      <button class="search-button">Search</button>
-    </div>
-
-    <!-- search filter container-->
-    <div class="filter-container"?>
-       <label for ="filter-type">filter by type:</label>
-       <select class="filter-select" id="filter type">
-        <option value="">All</option>
-        <option value="Caught">Caught</option>
-        <option value="uncaught">Uncaught</option>
-        <option value="Type">Type</option>
-       </select>
-       <button class="filter-button">Apply Filter</button>
-    </div>
-
     <!--Status contatiner-->
-    <div id="status-container" class="status-container">
+    <!-- <div id="status-container" class="status-container">
     <div id="status-container"class = "status-label">Status:</div>
     <div id= "status-tag status-caught"class=" status-tag status-caught">Caught</div>
     <div id="status-tag status-uncaught" class="status tag status-uncaught">uncaught</div>
-     </div>
+     </div> -->
 
      <!--PokeDex list-->
 
@@ -53,17 +69,13 @@
     <div id="pokemon-list-container" class="scroll">
       <!-- list will populate-->
         <ul id="pokemon-list"></ul>
-      <!--Caught button for each pokemon-->
-      <li>
-        <div class="list-pokemon">Pokemon Name 1</div>
-        <button class="toggle-caught-button">Toggle Caught Status</button>
-      </li>
+      
 
     </div>
    
 
     </div>
-
+    </div>
     <script defer type="text/javascript" src="index.js"></script>
   </body>
 </html>
