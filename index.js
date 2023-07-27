@@ -9,7 +9,7 @@ const statusForm = document.getElementById("toggle-caught-button")
 const uncaughtOption = document.getElementById("uncaught-option")    
 const inLivedexOption = document.getElementById("in-livedex-option")
 const inPokedexOption = document.getElementById("in-pokedex-option")
-
+const searchBar = document.getElementById("search-bar")
 
 const rndInt = Math.floor(Math.random() * 150)
 
@@ -32,7 +32,7 @@ fetch(pokemonUrl)
 })
 
 statusFormListener()
-
+searchBarListener()
 
 
 // Function to render feature Pokemon at top of page
@@ -63,10 +63,64 @@ function renderFeaturePokemon(pokemon) {
     
 }
 
+
+
+
+function renderStatusForm(pokemon) {
+    
+    if (pokemon["caught-status"] === "Uncaught") {
+        uncaughtOption.checked = true
+    } else if (pokemon["caught-status"] === "In Livedex") {
+        inLivedexOption.checked = true
+    } else if (pokemon["caught-status"] === "In Pokedex") {
+        inPokedexOption.checked = true
+    }
+    // ADD TO CHANGE POKEMON CAUGHT-STATUS
+    
+}
+
+
+function renderPokemonInList(pokemon) {
+    const newLi = document.createElement('li')
+    newLi.className = "list-pokemon"
+    pokemonList.append(newLi)
+    
+    const listImage = document.createElement('img')
+    listImage.className = "list-image"
+    listImage.src = formatImageSrc(pokemon.id)
+    listImage.alt = ""
+    newLi.append(listImage)
+    
+    const detailDiv = document.createElement("div")
+    detailDiv.className = 'list-info'
+    detailDiv.id = `detailDiv${pokemon.id}`
+    detailDiv.style["background-color"] = colorLiByStatus(pokemon["caught-status"])
+    newLi.append(detailDiv)
+    
+    const nameDiv = document.createElement("div")
+    const pokemonNameHeader = document.createElement("h3")
+    pokemonNameHeader.style.float = "left"
+    pokemonNameHeader.textContent = pokemon.name.english
+    nameDiv.append(pokemonNameHeader)
+    detailDiv.append(nameDiv)
+    
+    const statusDiv = document.createElement("div")
+    const pokemonStatus = document.createElement('p')
+    statusDiv.className = 'list-status'
+    pokemonStatus.textContent = pokemon["caught-status"]
+    pokemonStatus.id = `pokemonStatus${pokemon.id}`
+    statusDiv.append(pokemonStatus)
+    detailDiv.append(statusDiv)
+    
+    newLi.onclick = (e) => renderFeaturePokemon(pokemon)  
+    
+}
+
+
+// LISTENERS
+
 function statusFormListener() {
     statusForm.addEventListener("change", (e) => {
-        console.log(e.target.value)
-        console.log(`${currentPokemon.name.english} is now ${e.target.value}`)
         let patchConfig = {
             method: "PATCH",
             headers: {"content-type": "application/json"},
@@ -87,57 +141,28 @@ function statusFormListener() {
     })
 }
 
+function searchBarListener() {
+    searchBar.addEventListener("submit", (e)=> {
+        e.preventDefault()
 
-function renderStatusForm(pokemon) {
-    
-    if (pokemon["caught-status"] === "Uncaught") {
-        uncaughtOption.checked = true
-    } else if (pokemon["caught-status"] === "In Livedex") {
-        inLivedexOption.checked = true
-    } else if (pokemon["caught-status"] === "In Pokedex") {
-        inPokedexOption.checked = true
-    }
-     // ADD TO CHANGE POKEMON CAUGHT-STATUS
-    
+        let desiredPokemon = e.target.pokemon.value.toLowerCase()
+        
+        fetch(pokemonUrl)
+        .then(r=>r.json())
+        .then(data => {
+            function findPokemon(element) {
+                return element.name.english.toLowerCase() === desiredPokemon
+            }
+            
+            const newPokemon = data.find(findPokemon)
+            if (newPokemon) {
+                renderFeaturePokemon(newPokemon)
+                e.target.reset()
+            } else {alert("That pokemon hasn't been discovered yet! Are you sure about the spelling? ")}
+        })
+        
+    })
 }
-
-function renderPokemonInList(pokemon) {
-    const newLi = document.createElement('li')
-    newLi.className = "list-pokemon"
-    pokemonList.append(newLi)
-
-    const listImage = document.createElement('img')
-    listImage.className = "list-image"
-    listImage.src = formatImageSrc(pokemon.id)
-    listImage.alt = ""
-    newLi.append(listImage)
-
-    const detailDiv = document.createElement("div")
-    detailDiv.className = 'list-info'
-    detailDiv.id = `detailDiv${pokemon.id}`
-    detailDiv.style["background-color"] = colorLiByStatus(pokemon["caught-status"])
-    newLi.append(detailDiv)
-
-    const nameDiv = document.createElement("div")
-    const pokemonNameHeader = document.createElement("h3")
-    pokemonNameHeader.style.float = "left"
-    pokemonNameHeader.textContent = pokemon.name.english
-    nameDiv.append(pokemonNameHeader)
-    detailDiv.append(nameDiv)
-
-    const statusDiv = document.createElement("div")
-    const pokemonStatus = document.createElement('p')
-    statusDiv.className = 'list-status'
-    pokemonStatus.textContent = pokemon["caught-status"]
-    pokemonStatus.id = `pokemonStatus${pokemon.id}`
-    statusDiv.append(pokemonStatus)
-    detailDiv.append(statusDiv)
-
-    newLi.onclick = (e) => renderFeaturePokemon(pokemon)  
-    
-}
-
-
 
 
 
