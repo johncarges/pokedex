@@ -4,12 +4,15 @@ const pokemonUrl = baseUrl + "/pokemon"
 // HTML ELEMENTS
 
 const featuredPokemonWindow = document.getElementById("featured-pokemon")
-const pokemonList = document.getElementById('pokemon-list')
 const statusForm = document.getElementById("toggle-caught-button")
 const uncaughtOption = document.getElementById("uncaught-option")    
 const inLivedexOption = document.getElementById("in-livedex-option")
 const inPokedexOption = document.getElementById("in-pokedex-option")
+const typeTag = document.getElementById("pokemon-types")
+
+const pokemonList = document.getElementById('pokemon-list')
 const searchBar = document.getElementById("search-bar")
+
 
 const rndInt = Math.floor(Math.random() * 150)
 
@@ -52,14 +55,24 @@ function renderFeaturePokemon(pokemon) {
     pokemonNumberElement.textContent = `Pokedex Number: ${pokemon.id}`
     
     // Insert Type info
-    let typeElement = document.getElementById("type-tag")
-    let type = pokemon.type[0]
-    typeElement.textContent = `${pokemon.type[0]}`
-    typeElement.setAttribute("style", `background-color: ${elementalColors[type][0]}; color: ${elementalColors[type][1]}`)
-    
+    // let typeElement = document.getElementById("type-tag")
+    // let type = pokemon.type[0]
+    // typeElement.textContent = `${pokemon.type[0]}`
+    // typeElement.setAttribute("style", `background-color: ${elementalColors[type][0]}; color: ${elementalColors[type][1]}`)
+    while (typeTag.firstChild) {
+        typeTag.removeChild(typeTag.firstChild)
+    }
+    pokemon.type.forEach((type) => {
+        let typeElement = document.createElement("span")
+        typeElement.className = "type-tag"
+        typeElement.textContent = `${type}`
+        typeElement.setAttribute("style", `background-color: ${elementalColors[type][0]}; color: ${elementalColors[type][1]}`)
+        typeTag.append(typeElement)
+    })
+
+
     renderStatusForm(pokemon)
     currentPokemon = pokemon
-    console.log(currentPokemon.name.english)
     
 }
 
@@ -131,7 +144,7 @@ function statusFormListener() {
         .then(r=>r.json())
         .then(data => {
             
-            console.log(data)
+            
             const currentStatusElement = document.getElementById(`pokemonStatus${data.id}`)
             currentStatusElement.textContent = data["caught-status"]
             const currentDetailElement = document.getElementById(`detailDiv${data.id}`)
