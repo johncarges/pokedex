@@ -28,7 +28,8 @@ const pokemonFeatured = document.getElementById('featured-pokemon')
 fetch(pokemonUrl)
 .then(r=>r.json())
 .then((data) => {
-    data.slice(20*(pageNumber-1),20*pageNumber).forEach(renderPokemonInList)
+    //data.slice(20*(pageNumber-1),20*pageNumber).forEach(renderPokemonInList)
+    data.forEach(renderPokemonInList)
     currentPokemon = data[rndInt]
     renderFeaturePokemon(currentPokemon)
     // Show 20 pokemon at a time - can increase once we add buttons

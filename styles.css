@@ -65,7 +65,7 @@ h1 {
   background-color: #E36936;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  vertical-align: middle;
+  vertical-align: top;
   display: inline-block
 }
 
@@ -124,7 +124,8 @@ h1 {
 /* Search and Filter */
 #search-filter-container {
     vertical-align: middle;
-    display: inline-block
+    text-align: center;
+    
 }
 
 /* Search container */
@@ -209,6 +210,10 @@ h1 {
 }
 
 /* PokeDex list */
+#pokedex-and-title {
+  display: inline-block
+}
+
 #pokemon-list-container {
   max-width: 600px;
   margin: 20px auto;
@@ -217,7 +222,8 @@ h1 {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
-  max-height: 500px;
+  max-height: 550px;
+  vertical-align: top;
 }
 
 #pokemon-list {

@@ -620,7 +620,7 @@
         "Sp. Defense": 40,
         "Speed": 41
       },
-      "caught-status": "Uncaught"
+      "caught-status": "In Livedex"
     },
     {
       "id": 30,
@@ -1348,7 +1348,7 @@
         "Sp. Defense": 55,
         "Speed": 90
       },
-      "caught-status": "Uncaught"
+      "caught-status": "In Livedex"
     },
     {
       "id": 64,
@@ -1781,7 +1781,7 @@
         "Sp. Defense": 62,
         "Speed": 60
       },
-      "caught-status": "Uncaught"
+      "caught-status": "In Pokedex"
     },
     {
       "id": 84,

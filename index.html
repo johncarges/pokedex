@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    
+    <h1 id="page-title">My Livedex</h1>
     <div>
     <div id="top-level-div">
     <!-- featured pokemon container--> 
@@ -35,16 +35,44 @@
 
         </div>
 
-        <div id="search-filter-container">
-            <!-- Search container -->
-            
-            <form id="search-bar" class="search-container">
-                <input name="pokemon" type="text" id="search-input" placeholder="Look up Pokemon">
-                <input class="search-button" type="submit" value="Search">
-            </form>
+         <!--PokeDex list-->
+        <div id="pokedex-and-title">
+        <!-- <h1>Pokedex!</h1> -->
+        <div id="featured-pokemon"></div>
+        <div id="pokemon-list-container" class="scroll">
+          <!-- list will populate-->
+            <ul id="pokemon-list"></ul>
+          
+    
+        </div>
+       
+        </div>
 
-            <!-- search filter container-->
-            <div class="filter-container">
+        
+        
+    </div>
+    
+    <div id="search-filter-container">
+        <!-- Search container -->
+        
+        <form id="search-bar" class="search-container">
+            <input name="pokemon" type="text" id="search-input" placeholder="Look up Pokemon">
+            <input class="search-button" type="submit" value="Search">
+        </form>
+
+        
+    </div>
+
+    
+    </div>
+    
+    <script defer type="text/javascript" src="index.js"></script>
+  </body>
+</html>
+
+
+<!-- search filter container-->
+            <!-- <div class="filter-container">
                 <label for ="filter-type">Filter by Status:</label>
                 <select class="filter-select" id="filter type">
                     <option value="">All</option>
@@ -52,31 +80,4 @@
                     <option value="uncaught">Uncaught</option>
                 </select>
                 <button class="filter-button">Apply Filter</button>
-            </div>
-        </div>
-    </div>
-    
-    <!--Status contatiner-->
-    <!-- <div id="status-container" class="status-container">
-    <div id="status-container"class = "status-label">Status:</div>
-    <div id= "status-tag status-caught"class=" status-tag status-caught">Caught</div>
-    <div id="status-tag status-uncaught" class="status tag status-uncaught">uncaught</div>
-     </div> -->
-
-     <!--PokeDex list-->
-
-    <h1>Pokedex!</h1>
-    <div id="featured-pokemon"></div>
-    <div id="pokemon-list-container" class="scroll">
-      <!-- list will populate-->
-        <ul id="pokemon-list"></ul>
-      
-
-    </div>
-   
-
-    </div>
-    </div>
-    <script defer type="text/javascript" src="index.js"></script>
-  </body>
-</html>
+            </div> -->
